@@ -4,6 +4,8 @@
 # 08/16/2024
 
 # Input an excel file and output an excel file in a different specific format (Jira --> Microsoft Project)
+# Transfer to Git
+
 # Version 16) fix what my code needs to fix to identically match comparing output (for sentiniel):
     # - include child teams in project sheet
     # - fix spacing on unique id succ & pred v/
