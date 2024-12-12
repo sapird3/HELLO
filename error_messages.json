@@ -1,0 +1,13 @@
+{
+    "1042663826067609340": "Malfunction due to: Timeout: Initial state exceeded timeout: Not all essential processes are running",
+    "8426481460783404736": "ldd:FATAL: Could not load library libwolfssl.so.38",
+    "-2052592615908590211": "Peripheral compatibility failure. The peripheral version 'd11f88ca836774f0abbcfbb9e36af80f4e0bd07332ca1a8292c280a0d541c7b5830cd28137c3db27370942df0182dc135899ffac8297\n35b94d02e06f0c3a6da6' for sw-nrt not found in the pheripherals compatibility matrix.",
+    "8662004606904897330": "Compatibility Check failed EinsteinException:RunTimeError:SoftwareCompatibilityException: Peripherals compatibility check failed",
+    "-4409645725773497461": "Writer Not Initialized! Writing Process Info failed!",
+    "-945603255862533414": "The state of Process certificate_manager_dds_bootstrap with PID=68354569 is RUNNING",
+    "6800638672940257539": "Malfunction due to: Process 'console_gui' with pid=5824, type=0 has died",
+    "-797382320027612765": "Malfunction due to: Process 'ms_controller' with pid=729107, type=1 has died",
+    "3127605472487061481": "Malfunction due to: Process 'node_log_process' with pid=22446100, type=0 has died",
+    "-3195142712189071088": "OS Incompatibility found for Type scaler_firmware",
+    "-7819618755042099494": "Compatibility Check failed EinsteinException:RunTimeError:SoftwareCompatibilityException: OS Compatibility Check Failed"
+}

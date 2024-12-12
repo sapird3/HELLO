@@ -1,0 +1,788 @@
+Booting from PrimaryOS ...
+OS Authentication: ON
+  Start TPM service
+Decrypting APP/CONFIG/DATA folders
+Decrypting /einstein/pkgs
+
+Starting new logging session at Mon Feb  5 16:15:26 2024
+Logging verbosity set to 5
+UNLOCK_DOMAIN(Path:'/einstein/pkgs', Domain:1) SUCCESS
+Decrypting /einstein/config
+
+Starting new logging session at Mon Feb  5 16:15:26 2024
+Logging verbosity set to 5
+UNLOCK_DOMAIN(Path:'/einstein/config', Domain:2) SUCCESS
+Decrypting /datapart/enc
+
+Starting new logging session at Mon Feb  5 16:15:26 2024
+Logging verbosity set to 5
+UNLOCK_DOMAIN(Path:'/datapart/enc', Domain:3) SUCCESS
+ERROR: No APP image found!
+  Running local start-up script.
+
+---paths:/data/keys
+path_to_check:/data/keys
+/data/keys match!
+
+---paths:/data/var
+path_to_check:/data/var
+/data/var match!
+
+---paths:/data/var/log
+path_to_check:/data/var/log
+/data/var/log match!
+
+---paths:/data/var/run
+path_to_check:/data/var/run
+/data/var/run match!
+
+---paths:/data/var/chroot
+path_to_check:/data/var/chroot
+/data/var/chroot match!
+
+---paths:/data/var/dumps
+path_to_check:/data/var/dumps
+/data/var/dumps match!
+
+---paths:/data/var/chroot/sshd
+path_to_check:/data/var/chroot/sshd
+/data/var/chroot/sshd match!
+
+---paths:/data/var/log/secure
+path_to_check:/data/var/log/secure
+/data/var/log/secure match!
+
+---paths:/data/var/log/messages
+path_to_check:/data/var/log/messages
+/data/var/log/messages match!
+
+---paths:/data/var/log/kernel
+path_to_check:/data/var/log/kernel
+/data/var/log/kernel match!
+
+---paths:/data/os
+path_to_check:/data/os
+/data/os match!
+
+---paths:/data/os/motd
+path_to_check:/data/os/motd
+/data/os/motd match!
+
+---paths:/data/commonenv
+path_to_check:/data/commonenv
+/data/commonenv match!
+
+---paths:/data/commonenv/bin
+path_to_check:/data/commonenv/bin
+/data/commonenv/bin match!
+
+---paths:/data/commonenv/lib
+path_to_check:/data/commonenv/lib
+/data/commonenv/lib match!
+
+---paths:/data/commonenv/usr
+path_to_check:/data/commonenv/usr
+/data/commonenv/usr match!
+
+---paths:/data/commonenv/usr/lib
+path_to_check:/data/commonenv/usr/lib
+/data/commonenv/usr/lib match!
+
+---paths:/data/bin
+path_to_check:/data/bin
+/data/bin match!
+
+---paths:/data/lib
+path_to_check:/data/lib
+/data/lib match!
+
+---paths:/data/usr
+path_to_check:/data/usr
+/data/usr match!
+
+---paths:/data/usr/lib
+path_to_check:/data/usr/lib
+/data/usr/lib match!
+
+---paths:/data/logs
+path_to_check:/data/logs
+/data/logs match!
+
+---paths:/data/logs/bin
+path_to_check:/data/logs/bin
+/data/logs/bin match!
+
+---paths:/data/logs/lib
+path_to_check:/data/logs/lib
+/data/logs/lib match!
+
+---paths:/data/logs/usr
+path_to_check:/data/logs/usr
+/data/logs/usr match!
+
+---paths:/data/logs/usr/lib
+path_to_check:/data/logs/usr/lib
+/data/logs/usr/lib match!
+
+---paths:/data/temp_pkgs
+path_to_check:/data/temp_pkgs
+/data/temp_pkgs match!
+
+---paths:/data/temp_pkgs/incoming
+path_to_check:/data/temp_pkgs/incoming
+/data/temp_pkgs/incoming match!
+
+---paths:/data/temp_pkgs/bin
+path_to_check:/data/temp_pkgs/bin
+/data/temp_pkgs/bin match!
+
+---paths:/data/temp_pkgs/lib
+path_to_check:/data/temp_pkgs/lib
+/data/temp_pkgs/lib match!
+
+---paths:/data/temp_pkgs/usr
+path_to_check:/data/temp_pkgs/usr
+/data/temp_pkgs/usr match!
+
+---paths:/data/temp_pkgs/usr/lib
+path_to_check:/data/temp_pkgs/usr/lib
+/data/temp_pkgs/usr/lib match!
+
+---paths:/einstein/config
+path_to_check:/einstein/config
+/einstein/config match!
+
+---paths:/einstein/app_img
+path_to_check:/einstein/app_img
+Unexpected file permission:
+  File /einstein/app_img 
+    ActualPermission: lrwxrwxrwx deploymentuser deploymentuser
+    ExpectPermission: lrwxrwxrwx* deploymentuser deploymentuser /einstein/app_img 0777
+
+---paths:/einstein/app_img/*
+wirdcard in the path
+path_to_check:/einstein/app_img/*
+Missing required file:
+    ExpectPermission: -rw-rw-rw-* deploymentuser deploymentuser /einstein/app_img/* 0666
+
+---paths:/einstein/pkgs
+path_to_check:/einstein/pkgs
+/einstein/pkgs match!
+
+---paths:/einstein/pkgs/*
+wirdcard in the path
+path_to_check:/einstein/pkgs/4-0-0-43ccc23a3f4d
+/einstein/pkgs/4-0-0-43ccc23a3f4d match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56
+/einstein/pkgs/4-0-0-4a97dcb68f56 match!
+
+---paths:/einstein/pkgs/*/*
+wirdcard in the path
+path_to_check:/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img
+/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img match!
+path_to_check:/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img.sha512
+/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img.sha512 match!
+path_to_check:/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img.sig
+/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img.sig match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img
+/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sha512
+/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sha512 match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sig
+/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sig match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sig.old
+/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sig.old match!
+
+---paths:/einstein/keys/comm
+path_to_check:/einstein/keys/comm
+/einstein/keys/comm match!
+
+---paths:/einstein/keys/comm/HUGOID_PRIV.PEM
+path_to_check:/einstein/keys/comm/HUGOID_PRIV.PEM
+/einstein/keys/comm/HUGOID_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/HUGOID_CERT.PEM
+path_to_check:/einstein/keys/comm/HUGOID_CERT.PEM
+/einstein/keys/comm/HUGOID_CERT.PEM match!
+
+---paths:/einstein/keys/comm/HUGOID_CERT.CSR
+path_to_check:/einstein/keys/comm/HUGOID_CERT.CSR
+/einstein/keys/comm/HUGOID_CERT.CSR match!
+
+---paths:/einstein/keys/comm/ESATUSER_PRIV.PEM
+path_to_check:/einstein/keys/comm/ESATUSER_PRIV.PEM
+/einstein/keys/comm/ESATUSER_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/ESATUSER_PRIV.DER
+path_to_check:/einstein/keys/comm/ESATUSER_PRIV.DER
+/einstein/keys/comm/ESATUSER_PRIV.DER match!
+
+---paths:/einstein/keys/comm/DATAACCESSUSER_PRIV.PEM
+path_to_check:/einstein/keys/comm/DATAACCESSUSER_PRIV.PEM
+/einstein/keys/comm/DATAACCESSUSER_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/DATAACCESSUSER_PRIV.DER
+path_to_check:/einstein/keys/comm/DATAACCESSUSER_PRIV.DER
+/einstein/keys/comm/DATAACCESSUSER_PRIV.DER match!
+
+---paths:/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.PEM
+path_to_check:/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.PEM
+/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.DER
+path_to_check:/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.DER
+/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.DER match!
+
+---paths:/einstein/keys/comm/DEVUSER_PRIV.PEM
+path_to_check:/einstein/keys/comm/DEVUSER_PRIV.PEM
+/einstein/keys/comm/DEVUSER_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/DEVUSER_PRIV.DER
+path_to_check:/einstein/keys/comm/DEVUSER_PRIV.DER
+/einstein/keys/comm/DEVUSER_PRIV.DER match!
+
+---paths:/einstein/keys/comm/ROOT_PRIV.PEM
+path_to_check:/einstein/keys/comm/ROOT_PRIV.PEM
+/einstein/keys/comm/ROOT_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/ROOT_PRIV.DER
+path_to_check:/einstein/keys/comm/ROOT_PRIV.DER
+/einstein/keys/comm/ROOT_PRIV.DER match!
+
+---paths:/einstein/keys/comm/ESATUSER_CERT.PEM
+path_to_check:/einstein/keys/comm/ESATUSER_CERT.PEM
+/einstein/keys/comm/ESATUSER_CERT.PEM match!
+
+---paths:/einstein/keys/comm/ESATUSER_CERT.DER
+path_to_check:/einstein/keys/comm/ESATUSER_CERT.DER
+/einstein/keys/comm/ESATUSER_CERT.DER match!
+
+---paths:/einstein/keys/comm/DATAACCESSUSER_CERT.PEM
+path_to_check:/einstein/keys/comm/DATAACCESSUSER_CERT.PEM
+/einstein/keys/comm/DATAACCESSUSER_CERT.PEM match!
+
+---paths:/einstein/keys/comm/DATAACCESSUSER_CERT.DER
+path_to_check:/einstein/keys/comm/DATAACCESSUSER_CERT.DER
+/einstein/keys/comm/DATAACCESSUSER_CERT.DER match!
+
+---paths:/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.PEM
+path_to_check:/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.PEM
+/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.PEM match!
+
+---paths:/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.DER
+path_to_check:/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.DER
+/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.DER match!
+
+---paths:/einstein/keys/comm/DEVUSER_CERT.PEM
+path_to_check:/einstein/keys/comm/DEVUSER_CERT.PEM
+/einstein/keys/comm/DEVUSER_CERT.PEM match!
+
+---paths:/einstein/keys/comm/DEVUSER_CERT.DER
+path_to_check:/einstein/keys/comm/DEVUSER_CERT.DER
+/einstein/keys/comm/DEVUSER_CERT.DER match!
+
+---paths:/einstein/keys/comm/ROOT_CERT.PEM
+path_to_check:/einstein/keys/comm/ROOT_CERT.PEM
+/einstein/keys/comm/ROOT_CERT.PEM match!
+
+---paths:/einstein/keys/comm/ROOT_CERT.DER
+path_to_check:/einstein/keys/comm/ROOT_CERT.DER
+/einstein/keys/comm/ROOT_CERT.DER match!
+
+---paths:/datapart/openssh
+path_to_check:/datapart/openssh
+/datapart/openssh match!
+
+---paths:/datapart/openssh/sshdlog
+path_to_check:/datapart/openssh/sshdlog
+/datapart/openssh/sshdlog match!
+
+---paths:/datapart/openssh/etc/ssh
+path_to_check:/datapart/openssh/etc/ssh
+/datapart/openssh/etc/ssh match!
+
+---paths:/dev/hd0.ms.0
+path_to_check:/dev/hd0.ms.0
+/dev/hd0.ms.0 match!
+
+---paths:/dev/hd0.lnxdata.1
+path_to_check:/dev/hd0.lnxdata.1
+/dev/hd0.lnxdata.1 match!
+
+---paths:/dev/hd0.lnxdata.2
+path_to_check:/dev/hd0.lnxdata.2
+/dev/hd0.lnxdata.2 match!
+
+---paths:/proc/boot>/data/temp_pkgs/bin
+path_to_check:/data/temp_pkgs/bin
+/data/temp_pkgs/bin match!
+
+---paths:/data/temp_pkgs/bin/*.so*>>/data/temp_pkgs/lib/
+Skip to check moved file /data/temp_pkgs/bin/*.so*>>/data/temp_pkgs/lib/
+
+---paths:/data/temp_pkgs/lib/ldqnx-64.so*>>/data/temp_pkgs/usr/lib
+Skip to check moved file /data/temp_pkgs/lib/ldqnx-64.so*>>/data/temp_pkgs/usr/lib
+
+---paths:/proc/boot>/data/logs/bin
+path_to_check:/data/logs/bin
+/data/logs/bin match!
+
+---paths:/data/logs/bin/*.so*>>/data/logs/lib/
+Skip to check moved file /data/logs/bin/*.so*>>/data/logs/lib/
+
+---paths:/data/logs/lib/ldqnx-64.so*>>/data/logs/usr/lib
+Skip to check moved file /data/logs/lib/ldqnx-64.so*>>/data/logs/usr/lib
+
+---paths:/qnx/root/.ssh>/einstein/.ssh
+path_to_check:/einstein/.ssh
+/einstein/.ssh match!
+
+---paths:/datapart/enc
+path_to_check:/datapart/enc
+/datapart/enc match!
+Found incorrect/missing file permissions, try to correct them
+/einstein/app_img no wirdcard
+to setup /einstein/app_img
+Failed to change owner deploymentuser /einstein/app_img
+Failed to change group deploymentuser /einstein/app_img
+Creating regular file /einstein/app_img/* with owner deploymentuser, group deploymentuser and permission -rw-rw-rw-
+/einstein/app_img/* find wirdcard in the path, cannot create directory with wirdcard, skip
+Failed to touch /einstein/app_img/*
+/einstein/app_img/* find wirdcard in the path
+something is wrong to set /einstein/app_img/*
+to setup /einstein/app_img/*
+Failed to change permission 0666 /einstein/app_img/*
+Failed to change owner deploymentuser /einstein/app_img/* with symbolic link
+Failed to change owner deploymentuser /einstein/app_img/*
+Failed to change group deploymentuser /einstein/app_img/* with symbolic link
+Failed to change group deploymentuser /einstein/app_img/*
+
+---paths:/data/keys
+path_to_check:/data/keys
+/data/keys match!
+
+---paths:/data/var
+path_to_check:/data/var
+/data/var match!
+
+---paths:/data/var/log
+path_to_check:/data/var/log
+/data/var/log match!
+
+---paths:/data/var/run
+path_to_check:/data/var/run
+/data/var/run match!
+
+---paths:/data/var/chroot
+path_to_check:/data/var/chroot
+/data/var/chroot match!
+
+---paths:/data/var/dumps
+path_to_check:/data/var/dumps
+/data/var/dumps match!
+
+---paths:/data/var/chroot/sshd
+path_to_check:/data/var/chroot/sshd
+/data/var/chroot/sshd match!
+
+---paths:/data/var/log/secure
+path_to_check:/data/var/log/secure
+/data/var/log/secure match!
+
+---paths:/data/var/log/messages
+path_to_check:/data/var/log/messages
+/data/var/log/messages match!
+
+---paths:/data/var/log/kernel
+path_to_check:/data/var/log/kernel
+/data/var/log/kernel match!
+
+---paths:/data/os
+path_to_check:/data/os
+/data/os match!
+
+---paths:/data/os/motd
+path_to_check:/data/os/motd
+/data/os/motd match!
+
+---paths:/data/commonenv
+path_to_check:/data/commonenv
+/data/commonenv match!
+
+---paths:/data/commonenv/bin
+path_to_check:/data/commonenv/bin
+/data/commonenv/bin match!
+
+---paths:/data/commonenv/lib
+path_to_check:/data/commonenv/lib
+/data/commonenv/lib match!
+
+---paths:/data/commonenv/usr
+path_to_check:/data/commonenv/usr
+/data/commonenv/usr match!
+
+---paths:/data/commonenv/usr/lib
+path_to_check:/data/commonenv/usr/lib
+/data/commonenv/usr/lib match!
+
+---paths:/data/bin
+path_to_check:/data/bin
+/data/bin match!
+
+---paths:/data/lib
+path_to_check:/data/lib
+/data/lib match!
+
+---paths:/data/usr
+path_to_check:/data/usr
+/data/usr match!
+
+---paths:/data/usr/lib
+path_to_check:/data/usr/lib
+/data/usr/lib match!
+
+---paths:/data/logs
+path_to_check:/data/logs
+/data/logs match!
+
+---paths:/data/logs/bin
+path_to_check:/data/logs/bin
+/data/logs/bin match!
+
+---paths:/data/logs/lib
+path_to_check:/data/logs/lib
+/data/logs/lib match!
+
+---paths:/data/logs/usr
+path_to_check:/data/logs/usr
+/data/logs/usr match!
+
+---paths:/data/logs/usr/lib
+path_to_check:/data/logs/usr/lib
+/data/logs/usr/lib match!
+
+---paths:/data/temp_pkgs
+path_to_check:/data/temp_pkgs
+/data/temp_pkgs match!
+
+---paths:/data/temp_pkgs/incoming
+path_to_check:/data/temp_pkgs/incoming
+/data/temp_pkgs/incoming match!
+
+---paths:/data/temp_pkgs/bin
+path_to_check:/data/temp_pkgs/bin
+/data/temp_pkgs/bin match!
+
+---paths:/data/temp_pkgs/lib
+path_to_check:/data/temp_pkgs/lib
+/data/temp_pkgs/lib match!
+
+---paths:/data/temp_pkgs/usr
+path_to_check:/data/temp_pkgs/usr
+/data/temp_pkgs/usr match!
+
+---paths:/data/temp_pkgs/usr/lib
+path_to_check:/data/temp_pkgs/usr/lib
+/data/temp_pkgs/usr/lib match!
+
+---paths:/einstein/config
+path_to_check:/einstein/config
+/einstein/config match!
+
+---paths:/einstein/app_img
+path_to_check:/einstein/app_img
+Unexpected file permission:
+  File /einstein/app_img 
+    ActualPermission: lrwxrwxrwx deploymentuser deploymentuser
+    ExpectPermission: lrwxrwxrwx* deploymentuser deploymentuser /einstein/app_img 0777
+
+---paths:/einstein/app_img/*
+wirdcard in the path
+path_to_check:/einstein/app_img/*
+Missing required file:
+    ExpectPermission: -rw-rw-rw-* deploymentuser deploymentuser /einstein/app_img/* 0666
+
+---paths:/einstein/pkgs
+path_to_check:/einstein/pkgs
+/einstein/pkgs match!
+
+---paths:/einstein/pkgs/*
+wirdcard in the path
+path_to_check:/einstein/pkgs/4-0-0-43ccc23a3f4d
+/einstein/pkgs/4-0-0-43ccc23a3f4d match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56
+/einstein/pkgs/4-0-0-4a97dcb68f56 match!
+
+---paths:/einstein/pkgs/*/*
+wirdcard in the path
+path_to_check:/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img
+/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img match!
+path_to_check:/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img.sha512
+/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img.sha512 match!
+path_to_check:/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img.sig
+/einstein/pkgs/4-0-0-43ccc23a3f4d/app-safety.img.sig match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img
+/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sha512
+/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sha512 match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sig
+/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sig match!
+path_to_check:/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sig.old
+/einstein/pkgs/4-0-0-4a97dcb68f56/app-safety.img.sig.old match!
+
+---paths:/einstein/keys/comm
+path_to_check:/einstein/keys/comm
+/einstein/keys/comm match!
+
+---paths:/einstein/keys/comm/HUGOID_PRIV.PEM
+path_to_check:/einstein/keys/comm/HUGOID_PRIV.PEM
+/einstein/keys/comm/HUGOID_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/HUGOID_CERT.PEM
+path_to_check:/einstein/keys/comm/HUGOID_CERT.PEM
+/einstein/keys/comm/HUGOID_CERT.PEM match!
+
+---paths:/einstein/keys/comm/HUGOID_CERT.CSR
+path_to_check:/einstein/keys/comm/HUGOID_CERT.CSR
+/einstein/keys/comm/HUGOID_CERT.CSR match!
+
+---paths:/einstein/keys/comm/ESATUSER_PRIV.PEM
+path_to_check:/einstein/keys/comm/ESATUSER_PRIV.PEM
+/einstein/keys/comm/ESATUSER_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/ESATUSER_PRIV.DER
+path_to_check:/einstein/keys/comm/ESATUSER_PRIV.DER
+/einstein/keys/comm/ESATUSER_PRIV.DER match!
+
+---paths:/einstein/keys/comm/DATAACCESSUSER_PRIV.PEM
+path_to_check:/einstein/keys/comm/DATAACCESSUSER_PRIV.PEM
+/einstein/keys/comm/DATAACCESSUSER_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/DATAACCESSUSER_PRIV.DER
+path_to_check:/einstein/keys/comm/DATAACCESSUSER_PRIV.DER
+/einstein/keys/comm/DATAACCESSUSER_PRIV.DER match!
+
+---paths:/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.PEM
+path_to_check:/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.PEM
+/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.DER
+path_to_check:/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.DER
+/einstein/keys/comm/RESTRICTEDSHELLUSER_PRIV.DER match!
+
+---paths:/einstein/keys/comm/DEVUSER_PRIV.PEM
+path_to_check:/einstein/keys/comm/DEVUSER_PRIV.PEM
+/einstein/keys/comm/DEVUSER_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/DEVUSER_PRIV.DER
+path_to_check:/einstein/keys/comm/DEVUSER_PRIV.DER
+/einstein/keys/comm/DEVUSER_PRIV.DER match!
+
+---paths:/einstein/keys/comm/ROOT_PRIV.PEM
+path_to_check:/einstein/keys/comm/ROOT_PRIV.PEM
+/einstein/keys/comm/ROOT_PRIV.PEM match!
+
+---paths:/einstein/keys/comm/ROOT_PRIV.DER
+path_to_check:/einstein/keys/comm/ROOT_PRIV.DER
+/einstein/keys/comm/ROOT_PRIV.DER match!
+
+---paths:/einstein/keys/comm/ESATUSER_CERT.PEM
+path_to_check:/einstein/keys/comm/ESATUSER_CERT.PEM
+/einstein/keys/comm/ESATUSER_CERT.PEM match!
+
+---paths:/einstein/keys/comm/ESATUSER_CERT.DER
+path_to_check:/einstein/keys/comm/ESATUSER_CERT.DER
+/einstein/keys/comm/ESATUSER_CERT.DER match!
+
+---paths:/einstein/keys/comm/DATAACCESSUSER_CERT.PEM
+path_to_check:/einstein/keys/comm/DATAACCESSUSER_CERT.PEM
+/einstein/keys/comm/DATAACCESSUSER_CERT.PEM match!
+
+---paths:/einstein/keys/comm/DATAACCESSUSER_CERT.DER
+path_to_check:/einstein/keys/comm/DATAACCESSUSER_CERT.DER
+/einstein/keys/comm/DATAACCESSUSER_CERT.DER match!
+
+---paths:/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.PEM
+path_to_check:/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.PEM
+/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.PEM match!
+
+---paths:/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.DER
+path_to_check:/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.DER
+/einstein/keys/comm/RESTRICTEDSHELLUSER_CERT.DER match!
+
+---paths:/einstein/keys/comm/DEVUSER_CERT.PEM
+path_to_check:/einstein/keys/comm/DEVUSER_CERT.PEM
+/einstein/keys/comm/DEVUSER_CERT.PEM match!
+
+---paths:/einstein/keys/comm/DEVUSER_CERT.DER
+path_to_check:/einstein/keys/comm/DEVUSER_CERT.DER
+/einstein/keys/comm/DEVUSER_CERT.DER match!
+
+---paths:/einstein/keys/comm/ROOT_CERT.PEM
+path_to_check:/einstein/keys/comm/ROOT_CERT.PEM
+/einstein/keys/comm/ROOT_CERT.PEM match!
+
+---paths:/einstein/keys/comm/ROOT_CERT.DER
+path_to_check:/einstein/keys/comm/ROOT_CERT.DER
+/einstein/keys/comm/ROOT_CERT.DER match!
+
+---paths:/datapart/openssh
+path_to_check:/datapart/openssh
+/datapart/openssh match!
+
+---paths:/datapart/openssh/sshdlog
+path_to_check:/datapart/openssh/sshdlog
+/datapart/openssh/sshdlog match!
+
+---paths:/datapart/openssh/etc/ssh
+path_to_check:/datapart/openssh/etc/ssh
+/datapart/openssh/etc/ssh match!
+
+---paths:/dev/hd0.ms.0
+path_to_check:/dev/hd0.ms.0
+/dev/hd0.ms.0 match!
+
+---paths:/dev/hd0.lnxdata.1
+path_to_check:/dev/hd0.lnxdata.1
+/dev/hd0.lnxdata.1 match!
+
+---paths:/dev/hd0.lnxdata.2
+path_to_check:/dev/hd0.lnxdata.2
+/dev/hd0.lnxdata.2 match!
+
+---paths:/proc/boot>/data/temp_pkgs/bin
+path_to_check:/data/temp_pkgs/bin
+/data/temp_pkgs/bin match!
+
+---paths:/data/temp_pkgs/bin/*.so*>>/data/temp_pkgs/lib/
+Skip to check moved file /data/temp_pkgs/bin/*.so*>>/data/temp_pkgs/lib/
+
+---paths:/data/temp_pkgs/lib/ldqnx-64.so*>>/data/temp_pkgs/usr/lib
+Skip to check moved file /data/temp_pkgs/lib/ldqnx-64.so*>>/data/temp_pkgs/usr/lib
+
+---paths:/proc/boot>/data/logs/bin
+path_to_check:/data/logs/bin
+/data/logs/bin match!
+
+---paths:/data/logs/bin/*.so*>>/data/logs/lib/
+Skip to check moved file /data/logs/bin/*.so*>>/data/logs/lib/
+
+---paths:/data/logs/lib/ldqnx-64.so*>>/data/logs/usr/lib
+Skip to check moved file /data/logs/lib/ldqnx-64.so*>>/data/logs/usr/lib
+
+---paths:/qnx/root/.ssh>/einstein/.ssh
+path_to_check:/einstein/.ssh
+/einstein/.ssh match!
+
+---paths:/datapart/enc
+path_to_check:/datapart/enc
+/datapart/enc match!
+Unable to correct file permissions
+dhclient-script ===
+dhclient-script QNX DHCP client script called reason: PREINIT
+dhclient-script SOCK RESOLV_TO_MEMORY 1 MODIFY_RESOLV 1
+dhclient-script NO_DEF_ROUTE 0
+dhclient-script interface nrt0 medium pid 43053077 SOCK
+dhclient-script addr /
+dhclient-script new_routers
+dhclient-script new_static_routes
+dhclient-script new_dhcp6_name_servers
+dhclient-script new_domain_search
+dhclient-script new_domain_name
+dhclient-script new_domain_name_servers
+dhclient-script new_interface_mtu
+dhclient-script new_subnet_mask
+dhclient-script new_ip_address
+dhclient-script old_ip_address
+dhclient-script new_netmask_arg
+dhclient-script alias_ip_address
+dhclient-script alias_subnet_mask
+dhclient-script new_broadcast_address
+dhclient-script old_broadcast_address
+dhclient-script IF_METRIC
+dhclient-script new_host_name
+dhclient-script old_host_name
+dhclient-script ===
+non-Wifi Interface!!
+dhclient-script ===
+dhclient-script QNX DHCP client script called reason: BOUND
+dhclient-script SOCK RESOLV_TO_MEMORY 1 MODIFY_RESOLV 1
+dhclient-script NO_DEF_ROUTE 0
+dhclient-script interface nrt0 medium pid 43053077 SOCK
+dhclient-script addr /
+dhclient-script new_routers
+dhclient-script new_static_routes
+dhclient-script new_dhcp6_name_servers
+dhclient-script new_domain_search einstein.
+dhclient-script new_domain_name einstein
+dhclient-script new_domain_name_servers 192.168.0.200 192.168.0.200
+dhclient-script new_interface_mtu
+dhclient-script new_subnet_mask 255.255.255.0
+dhclient-script new_ip_address 192.168.0.201
+dhclient-script old_ip_address
+dhclient-script new_netmask_arg
+dhclient-script alias_ip_address
+dhclient-script alias_subnet_mask
+dhclient-script new_broadcast_address 192.168.0.255
+dhclient-script old_broadcast_address
+dhclient-script IF_METRIC
+dhclient-script new_host_name safety-nrt
+dhclient-script old_host_name
+dhclient-script ===
+New Network Number: 192.168.0.0
+New Broadcast Address: 192.168.0.255
+non-Wifi Interface!!
+dhclient-script ===
+dhclient-script QNX DHCP client script called reason: PREINIT
+dhclient-script SOCK RESOLV_TO_MEMORY 1 MODIFY_RESOLV 1
+dhclient-script NO_DEF_ROUTE 0
+dhclient-script interface rt0 medium pid 43163667 SOCK
+dhclient-script addr /
+dhclient-script new_routers
+dhclient-script new_static_routes
+dhclient-script new_dhcp6_name_servers
+dhclient-script new_domain_search
+dhclient-script new_domain_name
+dhclient-script new_domain_name_servers
+dhclient-script new_interface_mtu
+dhclient-script new_subnet_mask
+dhclient-script new_ip_address
+dhclient-script old_ip_address
+dhclient-script new_netmask_arg
+dhclient-script alias_ip_address
+dhclient-script alias_subnet_mask
+dhclient-script new_broadcast_address
+dhclient-script old_broadcast_address
+dhclient-script IF_METRIC
+dhclient-script new_host_name
+dhclient-script old_host_name
+dhclient-script ===
+non-Wifi Interface!!
+dhclient-script ===
+dhclient-script QNX DHCP client script called reason: BOUND
+dhclient-script SOCK RESOLV_TO_MEMORY 1 MODIFY_RESOLV 1
+dhclient-script NO_DEF_ROUTE 0
+dhclient-script interface rt0 medium pid 43163667 SOCK
+dhclient-script addr /
+dhclient-script new_routers
+dhclient-script new_static_routes
+dhclient-script new_dhcp6_name_servers
+dhclient-script new_domain_search einstein.
+dhclient-script new_domain_name einstein
+dhclient-script new_domain_name_servers 192.168.1.200 192.168.1.200
+dhclient-script new_interface_mtu
+dhclient-script new_subnet_mask 255.255.255.0
+dhclient-script new_ip_address 192.168.1.201
+dhclient-script old_ip_address
+dhclient-script new_netmask_arg
+dhclient-script alias_ip_address
+dhclient-script alias_subnet_mask
+dhclient-script new_broadcast_address 192.168.1.255
+dhclient-script old_broadcast_address
+dhclient-script IF_METRIC
+dhclient-script new_host_name safety-rt
+dhclient-script old_host_name
+dhclient-script ===
+New Network Number: 192.168.1.0
+New Broadcast Address: 192.168.1.255
+non-Wifi Interface!!

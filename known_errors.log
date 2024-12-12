@@ -1,0 +1,7 @@
+.LOG
+
+[21:44:46.585759] (0x00000002) [info] Writing Process Manager State to Parent MALFUNCTION_IRRECOVERABLE
+[21:44:46.585759] (0x00000002) [info] Operational State Exit
+[22:52:39.972001] (0x00000002) [info] Malfunction due to: Timeout: Initial state exceeded timeout: Not all essential processes are running
+[20:09:53.341001] (0x00000002) [error] Compatibility Check failed EinsteinException:RunTimeError:SoftwareCompatibilityException: Peripherals compatibility check failed
+[15:57:39.780763] (0x000015d4) [info] Malfunction due to: Process 'console_gui' with pid=5824, type=0 has died

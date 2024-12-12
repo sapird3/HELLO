@@ -1,0 +1,82 @@
+.LOG
+
+[2024-01-29 22:50:39.575001] [0x00000001] [info]    No Port ID Provided. Making it None
+[22:50:39.576001] (0x00000002) [info] Creating DDS Communication Interface
+[22:50:39.587001] (0x00000005) [info] Starting Signal Handler Thread
+[22:50:39.587001] (0x00000006) [info] Processing Process Spawn events in a dedicated thread
+[22:50:39.587001] (0x00000002) [info] Operational State Entry
+[22:50:39.587001] (0x00000002) [info] Initial State Entry
+[22:50:39.587001] (0x00000002) [info] Process manager state changed to INITIAL
+QoS compute crc, QoS check crc: (OFF, OFF)
+Created domain participant for domain ID 11
+QoS compute crc, QoS check crc: (ON, ON)
+[22:50:39.647001] (0x00000002) [info] Parsing SW Configuration File for Process Startup
+[22:50:39.898001] (0x00000002) [trace] Package integrity verified
+[22:50:40.093001] (0x00000002) [error] Error during Header read
+[22:50:40.093001] (0x00000002) [error] Failed to compress config files
+[22:50:40.094001] (0x00000002) [info] Failed to tar config dir
+[22:50:40.094001] (0x00000002) [info] Writing Process Manager State to Parent INITIAL
+[22:50:40.094001] (0x00000002) [info] Calling ProcessContainer::startProcesses
+[22:50:40.094001] (0x00000006) [info] Process Spawn event found
+[22:50:40.104001] (0x00000006) [info] Software Compatibility Check passed. Process=central_log_process with version=4.0.0 compatible with version=4.0.0
+[22:50:40.105001] (0x00000006) [info] Setting default path to for process central_log_process : /bin:/sbin:/usr/sbin:/usr/bin:/opt/bin:/opt/sbin:/proc/boot:/qnx/bin:/qnx/sbin:/qnx/usr/bin:/qnx/usr/sbin:/qnx/usr/local/bin:/qnx/opt/bin:/qnx/opt/sbin:/qnx/scripts:/einstein/application/bin
+[22:50:40.105001] (0x00000006) [info]  /einstein/application/bin/central_log_process-4.0.0 --update_time 10  --node_id 4
+[22:50:40.105001] (0x00000006) [info] retrieveUserID() ERANGE. Retrying
+[22:50:40.105001] (0x00000006) [info] User name set.  process_name=central_log_process user_name=dataaccessuser uid=1001 gid=1001
+[22:50:40.106001] (0x00000006) [info] retrieveUserID() ERANGE. Retrying
+[22:50:40.107001] (0x00000006) [info] The state of Process central_log_process with PID=27729928isINITIALIZING
+[22:52:38.333001] (0x00000004) [info] The state of Process central_log_process with PID=27729928isRUNNING
+[22:52:38.333001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[22:52:38.333001] (0x00000002) [info] Calling ProcessContainer::startProcesses
+[22:52:38.333001] (0x00000006) [info] Process Spawn event found
+[22:52:38.339001] (0x00000006) [info] Software Compatibility Check passed. Process=tower_button_driver with version=4.0.0 compatible with version=4.0.0
+[22:52:38.339001] (0x00000006) [info] Setting default path to for process tower_button_driver : /bin:/sbin:/usr/sbin:/usr/bin:/opt/bin:/opt/sbin:/proc/boot:/qnx/bin:/qnx/sbin:/qnx/usr/bin:/qnx/usr/sbin:/qnx/usr/local/bin:/qnx/opt/bin:/qnx/opt/sbin:/qnx/scripts:/einstein/application/bin
+[22:52:38.339001] (0x00000006) [info]  /einstein/application/bin/tower_button_driver-4.0.0 -n towerbutton -p 8 -t 2.0 --inputs_a_mask 0xC0
+[22:52:38.339001] (0x00000006) [info] User name set.  process_name=tower_button_driver user_name=root uid=0 gid=0
+[22:52:38.340001] (0x00000006) [info] The state of Process tower_button_driver with PID=27729934isINITIALIZING
+[22:52:38.357001] (0x00000004) [info] The state of Process tower_button_driver with PID=27729934isRUNNING
+[22:52:38.357001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[22:52:38.357001] (0x00000002) [info] Calling ProcessContainer::startProcesses
+[22:52:38.357001] (0x00000006) [info] Process Spawn event found
+[22:52:38.370001] (0x00000006) [info] Software Compatibility Check passed. Process=tower_button_manager with version=4.0.0 compatible with version=4.0.0
+[22:52:38.370001] (0x00000006) [info] Setting default path to for process tower_button_manager : /bin:/sbin:/usr/sbin:/usr/bin:/opt/bin:/opt/sbin:/proc/boot:/qnx/bin:/qnx/sbin:/qnx/usr/bin:/qnx/usr/sbin:/qnx/usr/local/bin:/qnx/opt/bin:/qnx/opt/sbin:/qnx/scripts:/einstein/application/bin
+[22:52:38.370001] (0x00000006) [info]  /einstein/application/bin/tower_button_manager-4.0.0 -g towerbutton_gpio_in -i /dev/i2c_towerbutton
+[22:52:38.371001] (0x00000006) [info] User name set.  process_name=tower_button_manager user_name=root uid=0 gid=0
+[22:52:38.373001] (0x00000006) [info] The state of Process tower_button_manager with PID=27729942isINITIALIZING
+[22:52:39.166001] (0x00000004) [info] The state of Process tower_button_manager with PID=27729942isRUNNING
+[22:52:39.166001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[22:52:39.167001] (0x00000002) [info] Calling ProcessContainer::startProcesses
+[22:52:39.167001] (0x00000006) [info] Process Spawn event found
+[22:52:39.210001] (0x00000006) [info] Software Compatibility Check passed. Process=ups_manager with version=4.0.0 compatible with version=4.0.0
+[22:52:39.211001] (0x00000006) [info] Setting default path to for process ups_manager : /bin:/sbin:/usr/sbin:/usr/bin:/opt/bin:/opt/sbin:/proc/boot:/qnx/bin:/qnx/sbin:/qnx/usr/bin:/qnx/usr/sbin:/qnx/usr/local/bin:/qnx/opt/bin:/qnx/opt/sbin:/qnx/scripts:/einstein/application/bin
+[22:52:39.211001] (0x00000006) [info]  /einstein/application/bin/ups_manager-4.0.0 -s /einstein/config/ups_serial.json -c /einstein/config/ups_config.json
+[22:52:39.211001] (0x00000006) [info] User name set.  process_name=ups_manager user_name=root uid=0 gid=0
+[22:52:39.214001] (0x00000006) [info] The state of Process ups_manager with PID=27729956isINITIALIZING
+[22:52:39.382001] (0x00000004) [info] The state of Process ups_manager with PID=27729956isRUNNING
+[22:52:39.382001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[22:52:39.382001] (0x00000002) [info] Calling ProcessContainer::startProcesses
+[22:52:39.382001] (0x00000006) [info] Process Spawn event found
+[22:52:39.431001] (0x00000006) [info] Software Compatibility Check passed. Process=system_monitor with version=4.0.0 compatible with version=4.0.0
+[22:52:39.432001] (0x00000006) [info] Setting default path to for process system_monitor : /bin:/sbin:/usr/sbin:/usr/bin:/opt/bin:/opt/sbin:/proc/boot:/qnx/bin:/qnx/sbin:/qnx/usr/bin:/qnx/usr/sbin:/qnx/usr/local/bin:/qnx/opt/bin:/qnx/opt/sbin:/qnx/scripts:/einstein/application/bin
+[22:52:39.432001] (0x00000006) [info]  /einstein/application/bin/system_monitor-4.0.0 --pre-shutdown-action-timeout-seconds 240 --network-switch-auth-file /einstein/config/switch_config.json --shutdown-config-file /einstein/application/resource/MasterShutdownConfig.json --disable-malfunction-check --disable-version-check --cart-initialization-time-seconds 240  --esat-message-wait 120 --enable-sc-monitoring
+[22:52:39.432001] (0x00000006) [info] User name set.  process_name=system_monitor user_name=qnxuser uid=1000 gid=1000
+[22:52:39.435001] (0x00000006) [info] The state of Process system_monitor with PID=27729957isINITIALIZING
+[22:52:39.634001] (0x00000004) [info] The state of Process system_monitor with PID=27729957isRUNNING
+[22:52:39.635001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[22:52:39.635001] (0x00000002) [info] Calling ProcessContainer::startProcesses
+[22:52:39.635001] (0x00000006) [info] Process Spawn event found
+[22:52:39.960001] (0x00000006) [info] Software Compatibility Check passed. Process=orti_gui with version=4.0.0 compatible with version=4.0.0
+[22:52:39.962001] (0x00000006) [info] Setting default path to for process orti_gui : /bin:/sbin:/usr/sbin:/usr/bin:/opt/bin:/opt/sbin:/proc/boot:/qnx/bin:/qnx/sbin:/qnx/usr/bin:/qnx/usr/sbin:/qnx/usr/local/bin:/qnx/opt/bin:/qnx/opt/sbin:/qnx/scripts:/einstein/application/bin
+[22:52:39.962001] (0x00000006) [info]  /einstein/application/bin/orti_gui-4.0.0
+[22:52:39.962001] (0x00000006) [info] User name set.  process_name=orti_gui user_name=root uid=0 gid=0
+[22:52:39.971001] (0x00000006) [info] The state of Process orti_gui with PID=27729958isINITIALIZING
+[22:52:39.971001] (0x00000007) [info] Queuing event for the state machine [ProcessManagerTimeoutEvent]
+[22:52:39.971001] (0x00000002) [info] Initial State Exit
+[22:52:39.971001] (0x00000002) [info] The System ID is Subsystem:[ORTI] Id:[NONE] System ID:C22AKL0109
+[22:52:39.972001] (0x00000002) [info] Operational State Exit
+[22:52:39.972001] (0x00000002) [info] Malfunction Irrecoverable State Entry
+[22:52:39.972001] (0x00000002) [info] Process manager state changed to MALFUNCTION_IRRECOVERABLE
+[22:52:39.972001] (0x00000002) [info] Writing Process Manager State to Parent MALFUNCTION_IRRECOVERABLE
+[22:52:39.972001] (0x00000002) [info] Malfunction due to: Timeout: Initial state exceeded timeout: Not all essential processes are running
+[22:52:42.063001] (0x00000004) [info] The state of Process orti_gui with PID=27729958isRUNNING
+[22:52:42.063001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]

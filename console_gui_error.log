@@ -1,0 +1,119 @@
+.LOG
+
+[2023-09-22 15:57:18.541168] [0x000015e4] [info]    No Port ID Provided. Making it None
+[15:57:18.541168] (0x000015d4) [info] Creating DDS Communication Interface 
+[15:57:18.541168] (0x000015ec) [info] Processing Process Spawn events in a dedicated thread 
+[15:57:18.541168] (0x000015d4) [info] Operational State Entry
+[15:57:18.541168] (0x000015d4) [info] Initial State Entry
+[15:57:18.541168] (0x000015d4) [info] Process manager state changed to INITIAL
+SetPriority() is not implemented yet!
+QoS compute crc, QoS check crc: (OFF, OFF)
+[15:57:18.666139] (0x000015d4) [info] Parsing SW Configuration File for Process Startup 
+[15:57:20.587549] (0x000016a4) [info] The Procedure ID is C23ENC005300001
+[15:57:28.467778] (0x000015d4) [trace] Package integrity verified 
+[15:57:28.764583] (0x000015d4) [info] Cmd: wmic os get Caption | more   Output: Caption                                   
+Microsoft Windows 10 IoT Enterprise LTSC  
+
+
+[15:57:28.764583] (0x000015d4) [info] Value: Microsoft Windows 10 IoT Enterprise LTSC
+[15:57:28.858311] (0x000015d4) [info] Cmd: wmic bios get Name | more   Output: Name                             
+V5.0.0.13 R1.12.0 for D3633-S1x  
+
+
+[15:57:28.858311] (0x000015d4) [info] Value: V5.0.0.13 R1.12.0 for D3633-S1x
+[15:57:28.920797] (0x000015d4) [info] Cmd: wmic bios get Description | more   Output: Description                      
+V5.0.0.13 R1.12.0 for D3633-S1x  
+
+
+[15:57:28.920797] (0x000015d4) [info] Value: V5.0.0.13 R1.12.0 for D3633-S1x
+[15:57:28.983281] (0x000015d4) [info] Cmd: wmic bios get Manufacturer | more   Output: Manufacturer                         
+FUJITSU // American Megatrends Inc.  
+
+
+[15:57:28.983281] (0x000015d4) [info] Value: FUJITSU // American Megatrends Inc.
+[15:57:29.045767] (0x000015d4) [info] Cmd: wmic bios get ReleaseDate | more   Output: ReleaseDate                
+20210218000000.000000+000  
+
+
+[15:57:29.045767] (0x000015d4) [info] Value: 20210218000000.000000+000
+[15:57:29.108253] (0x000015d4) [info] Cmd: wmic bios get SMBIOSMajorVersion | more   Output: SMBIOSMajorVersion  
+3                   
+
+
+[15:57:29.108253] (0x000015d4) [info] Value: 3
+[15:57:29.170737] (0x000015d4) [info] Cmd: wmic bios get SMBIOSMinorVersion | more   Output: SMBIOSMinorVersion  
+2                   
+
+
+[15:57:29.170737] (0x000015d4) [info] Value: 2
+[15:57:29.233222] (0x000015d4) [info] Cmd: wmic bios get SystemBiosMajorVersion | more   Output: SystemBiosMajorVersion  
+1                       
+
+
+[15:57:29.233222] (0x000015d4) [info] Value: 1
+[15:57:29.295708] (0x000015d4) [info] Cmd: wmic bios get SystemBiosMinorVersion | more   Output: SystemBiosMinorVersion  
+12                      
+
+
+[15:57:29.295708] (0x000015d4) [info] Value: 12
+[15:57:29.358193] (0x000015d4) [info] Cmd: wmic baseboard get Product | more   Output: Product   
+D3633-S1  
+
+
+[15:57:29.358193] (0x000015d4) [info] Value: D3633-S1
+[15:57:29.420678] (0x000015d4) [info] Cmd: wmic baseboard get Description | more   Output: Description  
+Base Board   
+
+
+[15:57:29.420678] (0x000015d4) [info] Value: Base Board
+[15:57:29.483164] (0x000015d4) [info] Cmd: wmic baseboard get Manufacturer | more   Output: Manufacturer  
+FUJITSU       
+
+
+[15:57:29.483164] (0x000015d4) [info] Value: FUJITSU
+[15:57:29.545649] (0x000015d4) [info] Cmd: wmic baseboard get SerialNumber | more   Output: SerialNumber  
+67201635      
+
+
+[15:57:29.545649] (0x000015d4) [info] Value: 67201635
+[15:57:29.608134] (0x000015d4) [info] Cmd: wmic baseboard get Version | more   Output: Version          
+S26361-D3633-S1  
+
+
+[15:57:29.608134] (0x000015d4) [info] Value: S26361-D3633-S1
+[15:57:29.623756] (0x000015d4) [info] Writing Process Manager State to Parent INITIAL
+[15:57:29.623756] (0x000015d4) [info] Calling ProcessContainer::startProcesses 
+[15:57:29.623756] (0x000015ec) [info] Process Spawn event found 
+[15:57:29.639377] (0x000015ec) [info] Software Compatibility Check passed. Process=logclockntp with version=4.0.0 compatible with version=4.0.0
+[15:57:29.654998] (0x000015ec) [info] The state of Process logclockntp with PID=1772isINITIALIZING
+[15:57:29.654998] (0x000015e8) [info] Process with pid 1772Initialised
+[15:57:29.654998] (0x000015e8) [info] The state of Process logclockntp with PID=1772isRUNNING
+[15:57:29.654998] (0x000015e8) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[15:57:29.654998] (0x000015d4) [info] Calling ProcessContainer::startProcesses 
+[15:57:29.654998] (0x000015ec) [info] Process Spawn event found 
+[15:57:29.686240] (0x000015ec) [info] Software Compatibility Check passed. Process=node_log_process with version=4.0.0 compatible with version=4.0.0
+[15:57:29.701863] (0x000015ec) [info] The state of Process node_log_process with PID=1392isINITIALIZING
+[15:57:29.795589] (0x000015e8) [info] Process with pid 1392Initialised
+[15:57:29.795589] (0x000015e8) [info] The state of Process node_log_process with PID=1392isRUNNING
+[15:57:29.795589] (0x000015e8) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[15:57:29.795589] (0x000015d4) [info] Calling ProcessContainer::startProcesses 
+[15:57:29.795589] (0x000015ec) [info] Process Spawn event found 
+[15:57:29.811211] (0x000015ec) [info] Software Compatibility Check passed. Process=head_tracking with version=4.0.0 compatible with version=4.0.0
+[15:57:29.842454] (0x000015ec) [info] The state of Process head_tracking with PID=3008isINITIALIZING
+[15:57:29.920560] (0x000015e8) [info] Process with pid 3008Initialised
+[15:57:29.920560] (0x000015e8) [info] The state of Process head_tracking with PID=3008isRUNNING
+[15:57:29.920560] (0x000015e8) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[15:57:29.920560] (0x000015d4) [info] Calling ProcessContainer::startProcesses 
+[15:57:29.920560] (0x000015ec) [info] Process Spawn event found 
+[15:57:29.967012] (0x000015ec) [info] Software Compatibility Check passed. Process=console_gui with version=4.0.0 compatible with version=4.0.0
+[15:57:29.989951] (0x000015ec) [info] The state of Process console_gui with PID=5824isINITIALIZING
+[15:57:39.267137] (0x0000161c) [info] Process with PID 5824died by 0
+[15:57:39.267137] (0x0000161c) [info] The state of Process console_gui with PID=5824isEXITED
+[15:57:39.267137] (0x0000161c) [info] Queuing event for the state machine [ProcessDiedEvent]
+[15:57:39.267137] (0x000015d4) [info] Initial State Exit
+[15:57:39.780763] (0x000015d4) [info] Operational State Exit
+[15:57:39.780763] (0x000015d4) [info] Malfunction Irrecoverable State Entry
+[15:57:39.780763] (0x000015d4) [info] Process manager state changed to MALFUNCTION_IRRECOVERABLE
+[15:57:39.780763] (0x000015d4) [info] Writing Process Manager State to Parent MALFUNCTION_IRRECOVERABLE
+[15:57:39.780763] (0x000015d4) [info] Malfunction due to: Process 'console_gui' with pid=5824, type=0 has died
+[15:57:46.876784] (0x00001610) [info] Queuing event for the state machine [ProcessManagerStateTransitionCommandEvent]

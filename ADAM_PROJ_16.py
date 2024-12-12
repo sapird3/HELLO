@@ -106,12 +106,13 @@ def process_excel(data_file, new_file_name, perc_est, mapping_file):
         if issue_type is None:  # Skip empty rows
             continue
         elif issue_type != 'Feature':  # Skip child rows of Done Features
-            if feature_status == 'Done':
-                continue
+            #if feature_status == 'Done':
+            #    continue
             if issue_type == 'Enhancement':
                 continue  # Skip row if 'Enhancment'
             if issue_type == 'Defect':
-                continue  # Skip row if 'Defect'
+                continue  # Skip row if 'Defect' FX, Initiative, SFX, 
+
 
         status = ws1.range('G' + str(row)).value
         if status == 'Cancelled':

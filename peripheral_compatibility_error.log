@@ -1,0 +1,364 @@
+.LOG
+
+[2023-09-25 20:06:07.712001] [0x00000001] [info]    No Port ID Provided. Making it None
+[20:06:07.713001] (0x00000002) [info] Creating Master Child Communication Interface 
+[20:06:07.724001] (0x00000005) [info] Starting Signal Handler Thread
+[20:06:07.724001] (0x00000002) [info] Operational State Entry
+[20:06:07.724001] (0x00000006) [info] Processing Process Spawn events in a dedicated thread 
+[20:06:07.724001] (0x00000002) [info] Initial State Entry
+[20:06:07.724001] (0x00000002) [info] Process manager state changed to INITIAL
+QoS compute crc, QoS check crc: (ON, ON)
+[20:06:07.847001] (0x00000002) [info] Registering DDS Type: ProcessInfo
+[20:06:07.847001] (0x00000002) [info] Registering DDS Type: ProcessManagerInfo
+[20:06:07.847001] (0x00000002) [info] Registering DDS Type: ProcessManagerCommand
+[20:06:07.847001] (0x00000002) [info] Registering DDS Type: SystemLanguage
+[20:06:07.847001] (0x00000002) [info] Acquiring Domain Participant for StartupParticipantLibrary::CoreNonRealtimeParticipant
+[20:06:07.847001] (0x00000002) [info] Making DomainParticipant: StartupParticipantLibrary::CoreNonRealtimeParticipant
+[20:06:07.917001] (0x00000002) [trace] Making DdsDataReader MasterProcessManagerCommandReader
+[20:06:07.917001] (0x00000002) [trace] Setting the content filter parameters for the Reader MasterProcessManagerCommandReader
+[20:06:07.919001] (0x00000002) [info] Making Writer: MasterProcessManagerInformationWriter
+[20:06:07.919001] (0x00000002) [info] Making DdsDataWriter: MasterProcessManagerInformationWriter
+[20:06:07.920001] (0x00000002) [info] Parsing SW Configuration File for Process Startup 
+[20:06:08.097001] (0x00000002) [trace] Package integrity verified 
+[20:06:08.251001] (0x00000002) [error] Error during Header read
+[20:06:08.251001] (0x00000002) [error] Failed to compress config files
+[20:06:08.251001] (0x00000002) [info] Failed to tar config dir
+[20:06:08.251001] (0x00000002) [info] Writing Process Manager State to Parent INITIAL
+[20:06:08.251001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:08.251001] (0x00000006) [info] Process Spawn event found 
+[20:06:08.255001] (0x00000006) [info] Software Compatibility Check passed. Process=central_log_process with version=3.0.4 compatible with version=3.0.4
+[20:06:08.255001] (0x00000006) [info]  /einstein/application/bin/central_log_process-3.0.4 --update_time 10 --ignore-debug --node_id 4 
+[20:06:08.256001] (0x00000006) [info] The state of Process central_log_process with PID=1662988isINITIALIZING
+[20:06:08.487001] (0x00000004) [info] The state of Process central_log_process with PID=1662988isRUNNING
+[20:06:08.487001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[20:06:08.487001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:08.487001] (0x00000006) [info] Process Spawn event found 
+[20:06:08.490001] (0x00000006) [info] Software Compatibility Check passed. Process=tower_button_driver with version=3.0.4 compatible with version=3.0.4
+[20:06:08.490001] (0x00000006) [info]  /einstein/application/bin/tower_button_driver-3.0.4 -n towerbutton -p 8 -t 2.0 --inputs_a_mask 0xC0 
+[20:06:08.492001] (0x00000006) [info] The state of Process tower_button_driver with PID=1662995isINITIALIZING
+[20:06:08.515001] (0x00000004) [info] The state of Process tower_button_driver with PID=1662995isRUNNING
+[20:06:08.515001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[20:06:08.515001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:08.515001] (0x00000006) [info] Process Spawn event found 
+[20:06:08.519001] (0x00000006) [info] Software Compatibility Check passed. Process=tower_button_manager with version=3.0.4 compatible with version=3.0.4
+[20:06:08.519001] (0x00000006) [info]  /einstein/application/bin/tower_button_manager-3.0.4 -g towerbutton_gpio_in -i /dev/i2c_towerbutton 
+[20:06:08.520001] (0x00000006) [info] The state of Process tower_button_manager with PID=1663006isINITIALIZING
+[20:06:09.385001] (0x00000004) [info] The state of Process tower_button_manager with PID=1663006isRUNNING
+[20:06:09.385001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[20:06:09.385001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:09.385001] (0x00000006) [info] Process Spawn event found 
+[20:06:09.407001] (0x00000006) [info] Software Compatibility Check passed. Process=ups_manager with version=3.0.4 compatible with version=3.0.4
+[20:06:09.408001] (0x00000006) [info]  /einstein/application/bin/ups_manager-3.0.4 -s /einstein/config/ups_serial.json -c /einstein/config/ups_config.json   
+[20:06:09.410001] (0x00000006) [info] The state of Process ups_manager with PID=1675299isINITIALIZING
+[20:06:09.650001] (0x00000004) [info] The state of Process ups_manager with PID=1675299isRUNNING
+[20:06:09.650001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[20:06:09.651001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:09.651001] (0x00000006) [info] Process Spawn event found 
+[20:06:09.693001] (0x00000006) [info] Software Compatibility Check passed. Process=system_monitor with version=3.0.4 compatible with version=3.0.4
+[20:06:09.693001] (0x00000006) [info]  /einstein/application/bin/system_monitor-3.0.4 --pre-shutdown-action-timeout-seconds 240 --network-switch-auth-file /einstein/config/switch_config.json --shutdown-config-file /einstein/application/resource/MasterShutdownConfig.json  --disable-version-check --cart-initialization-time-seconds 240  --esat-message-wait 120 --enable-sc-monitoring  
+[20:06:09.697001] (0x00000006) [info] The state of Process system_monitor with PID=1675300isINITIALIZING
+[20:06:09.955001] (0x00000004) [info] The state of Process system_monitor with PID=1675300isRUNNING
+[20:06:09.955001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[20:06:09.955001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:09.955001] (0x00000006) [info] Process Spawn event found 
+[20:06:10.074001] (0x00000006) [info] Software Compatibility Check passed. Process=orti_gui with version=3.0.4 compatible with version=3.0.4
+[20:06:10.076001] (0x00000006) [info]  /einstein/application/bin/orti_gui-3.0.4 
+[20:06:10.083001] (0x00000006) [info] The state of Process orti_gui with PID=1675301isINITIALIZING
+[20:06:11.621001] (0x00000004) [info] The state of Process orti_gui with PID=1675301isRUNNING
+[20:06:11.621001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[20:06:11.621001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:11.621001] (0x00000006) [info] Process Spawn event found 
+[20:06:11.627001] (0x00000006) [info] Software Compatibility Check passed. Process=audio_indicator with version=3.0.4 compatible with version=3.0.4
+[20:06:11.627001] (0x00000006) [info]  /einstein/application/bin/audio_indicator-3.0.4 --is_orti_audio 
+[20:06:11.629001] (0x00000006) [info] The state of Process audio_indicator with PID=1675302isINITIALIZING
+[20:06:11.888001] (0x00000004) [info] The state of Process audio_indicator with PID=1675302isRUNNING
+[20:06:11.888001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[20:06:11.888001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:11.888001] (0x00000006) [info] Process Spawn event found 
+[20:06:11.903001] (0x00000006) [info] Software Compatibility Check passed. Process=configuration_manager with version=3.0.4 compatible with version=3.0.4
+[20:06:11.903001] (0x00000006) [info]  /einstein/application/bin/configuration_manager-3.0.4 --max-procedure-time-seconds 57600 
+[20:06:11.905001] (0x00000006) [info] The state of Process configuration_manager with PID=1675303isINITIALIZING
+[20:06:11.938001] (0x00000004) [info] The state of Process configuration_manager with PID=1675303isRUNNING
+[20:06:11.938001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[20:06:11.938001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:11.939001] (0x00000006) [info] Process Spawn event found 
+[20:06:11.945001] (0x00000006) [info] Software Compatibility Check passed. Process=data_access_collector with version=3.0.4 compatible with version=3.0.4
+[20:06:11.946001] (0x00000006) [info]  /einstein/application/bin/data_access_collector-3.0.4 --verbosity 1 --remaining_memory_percentage=10 --priority_type=node --node_priority_file=/einstein/application/resource/DataAccess.json --log_priority_file=/einstein/application/resource/DataPriority.json --remote-location=/einstein_data/ 
+[20:06:11.947001] (0x00000006) [info] The state of Process data_access_collector with PID=1675304isINITIALIZING
+[20:06:12.197001] (0x00000004) [info] The state of Process data_access_collector with PID=1675304isRUNNING
+[20:06:12.197001] (0x00000004) [info] Queuing event for the state machine [ProcessInitialisationMarkerReceivedEvent]
+[20:06:12.197001] (0x00000002) [info] Calling ProcessContainer::startProcesses 
+[20:06:12.197001] (0x00000006) [info] Process Spawn event found 
+[20:06:12.197001] (0x00000006) [info] Queuing event for the state machine [AllProcessesRunningEvent]
+[20:06:12.197001] (0x00000002) [info] AllBootProcessesRunningEvent received
+[20:06:12.197001] (0x00000002) [info] Initial State Exit
+[20:06:12.198001] (0x00000002) [info] The System ID is Subsystem:[ORTI] Id:[NONE] System ID:C21AKJ0059
+[20:06:12.729001] (0x00000002) [info] Standby State Entry
+[20:06:12.729001] (0x00000002) [info] Process manager state changed to STANDBY
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] central_log_process Ver:3.0.4 Path:/einstein/application/bin/central_log_process Boot:2 Opt:--update_time 10 --ignore-debug --node_id 4 ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_DISCOVERY_PEERS=cpsc,acs-01,acs-02,acs-03,acs-04,fse NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/central_log_participant.xml  Type:0 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] tower_button_driver Ver:3.0.4 Path:/einstein/application/bin/tower_button_driver Boot:3 Opt:-n towerbutton -p 8 -t 2.0 --inputs_a_mask 0xC0 ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/  Type:0 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] tower_button_manager Ver:3.0.4 Path:/einstein/application/bin/tower_button_manager Boot:4 Opt:-g towerbutton_gpio_in -i /dev/i2c_towerbutton ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_DISCOVERY_PEERS=20@orti,20@msc NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/hw_manager_participant.xml  Type:0 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] ups_manager Ver:3.0.4 Path:/einstein/application/bin/ups_manager Boot:5 Opt:-s /einstein/config/ups_serial.json -c /einstein/config/ups_config.json   ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_DISCOVERY_PEERS=20@msc,20@orti NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/ups_participant.xml;/einstein/application/resource/error_client_participant.xml  Type:0 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] system_monitor Ver:3.0.4 Path:/einstein/application/bin/system_monitor Boot:6 Opt:--pre-shutdown-action-timeout-seconds 240 --network-switch-auth-file /einstein/config/switch_config.json --shutdown-config-file /einstein/application/resource/MasterShutdownConfig.json  --disable-version-check --cart-initialization-time-seconds 240  --esat-message-wait 120 --enable-sc-monitoring  ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_DISCOVERY_PEERS=20@orti,msc,cpsc,fse,sra-01,sra-02,sra-03,sra-04,cart-01,cart-02,cart-03,cart-04,safety,10@scdc-01,10@sui-01 NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/system_monitor_participant.xml;/einstein/application/resource/error_client_participant.xml  Type:0 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] orti_gui Ver:3.0.4 Path:/einstein/application/bin/orti_gui Boot:7 Opt: ExOpt: ProcEnv:QQNX_PHYSICAL_SCREEN_SIZE=531.4,298.9 GUI_DIAGNOSTIC_MODE=0 LOG_COMPLETE_MESSAGES=1 ENFORCE_SPLASH_COUNTDOWN=0 NDDS_DISCOVERY_PEERS=20@msc,20@orti,10@scdc-01,10@sui-01,10@sui-02,sra-01,sra-02,sra-03,sra-04 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/:/usr/plugins/video/videonode/:/usr/plugins/mediaservice/ NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/orti_participant.xml;/einstein/application/resource/orti_gui_participant.xml;/einstein/application/resource/gui_smc_participant.xml;/einstein/application/resource/storz_client_participant.xml;/einstein/application/resource/error_client_participant.xml  Type:0 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] orti_safety_local Ver:3.0.4 Path:/einstein/application/bin/orti_safety_local Boot:9 Opt: ExOpt: ProcEnv: Type:1 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] audio_indicator Ver:3.0.4 Path:/einstein/application/bin/audio_indicator Boot:10 Opt:--is_orti_audio ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_DISCOVERY_PEERS=safety NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml  Type:0 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] configuration_manager Ver:3.0.4 Path:/einstein/application/bin/configuration_manager Boot:11 Opt:--max-procedure-time-seconds 57600 ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_DISCOVERY_PEERS=20@orti,msc,10@scdc-01,safety,sra-01,sra-02,sra-03,sra-04 NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/configuration_participant.xml;/einstein/application/resource/error_client_participant.xml  Type:0 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] data_access_collector Ver:3.0.4 Path:/einstein/application/bin/data_access_collector Boot:12 Opt:--verbosity 1 --remaining_memory_percentage=10 --priority_type=node --node_priority_file=/einstein/application/resource/DataAccess.json --log_priority_file=/einstein/application/resource/DataPriority.json --remote-location=/einstein_data/ ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_DISCOVERY_PEERS=localhost NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/data_access_collector_participant.xml  Type:0 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] storz_controller Ver:3.0.4 Path:/einstein/application/bin/storz_controller Boot:13 Opt:-c /einstein/config/certificates/storz.pem -i /einstein/application/resource ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/storz_server_participant.xml;/einstein/application/resource/error_client_participant.xml NDDS_DISCOVERY_PEERS=msc,20@orti,10@scdc-01  Type:1 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] kpi_logger Ver:3.0.4 Path:/einstein/application/bin/kpi_logger Boot:30 Opt:--priority 10 --collection-period=300 --log-data true --save-data false --trigger-check-period 500 --cpuload-capture-interval 5 --log-level 1 ExOpt: ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/  Type:1 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] deployment_manager_dds Ver:3.0.4 Path:/einstein/application/bin/deployment_manager_dds Boot:50 Opt: ExOpt:subsystem-name hw_config_file sw_config_file os_config_file  ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/deployment_participant.xml  Type:2 Log:T IsTransient:F Stack:512000 RunMask:-1 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] SW Info   Subsystem:[ORTI] Id:[NONE] certificate_manager_dds Ver:3.0.4 Path:/einstein/application/bin/certificate_manager_dds Boot:59 Opt: ExOpt:subsystem-name certificate_config_file  ProcEnv:LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/einstein/application/lib/ NDDS_QOS_PROFILES=/einstein/application/resource/einstein_custom_qos_profile_library.xml;/einstein/application/resource/einstein_domain_library.xml;/einstein/application/resource/certificate_participant.xml  Type:2 Log:T IsTransient:F Stack:512000 RunMask:127 Interface:NRT
+[20:06:12.730001] (0x00000002) [info] OS Info   Subsystem:[ORTI] Id:[NONE] Type:bios Ver:V5.0.0.13 R1.12.0 for D3633-S1x                    Hash:Unknown User: Host:Unknown Date:Unknown Branch:Unknown
+[20:06:12.731001] (0x00000002) [info] OS Info   Subsystem:[ORTI] Id:[NONE] Type:efi Ver:dev Hash:8584e4b842379e9e4f9e57fb65f8566445827601 User: Host:tamans-ein-build12 Date:Mon Aug 21 14:09:56 UTC 2023 Branch:release/p-003.000.004
+[20:06:12.731001] (0x00000002) [info] OS Info   Subsystem:[ORTI] Id:[NONE] Type:os Ver:dev Hash:8584e4b842379e9e4f9e57fb65f8566445827601 User: Host:tamans-ein-build12 Date:Mon Aug 21 14:09:56 UTC 2023 Branch:release/p-003.000.004
+[20:06:12.731001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: central_log_process git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.731001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: tower_button_driver git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.731001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: tower_button_manager git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.731001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: ups_manager git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.731001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: system_monitor git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Engineering build_number: 2 
+[20:06:12.731001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: orti_gui git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.731001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: orti_safety_local git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.731001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: audio_indicator git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.732001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: configuration_manager git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.732001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: data_access_collector git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.732001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: storz_controller git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.732001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: kpi_logger git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.732001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: deployment_manager_dds git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.732001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: certificate_manager_dds git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.732001] (0x00000002) [info] SW build Info: Subsystem:[ORTI] Id:[NONE] process_name: process_manager_dds git_hash: 4f31a6fca43e git_branch: release/p-003.000.004 build_type: Release build_number: 2 
+[20:06:12.732001] (0x00000002) [info] BSP build Info: Subsystem:[ORTI] Id:[NONE] git_hash: 8584e4b842379e9e4f9e57fb65f8566445827601 git_branch: release/p-003.000.004 build_number: 2 
+[20:06:12.783001] (0x00000002) [info] Following processes build type is not release: system_monitor
+[20:06:12.783001] (0x00000002) [info] The state of Process kpi_logger with PID=-1isSTOPPED
+[20:06:12.783001] (0x00000002) [info] The state of Process storz_controller with PID=-1isSTOPPED
+[20:06:12.783001] (0x00000002) [info] The state of Process orti_safety_local with PID=-1isSTOPPED
+[20:06:12.783001] (0x00000002) [info] The state of Process certificate_manager_dds with PID=-1isSTOPPED
+[20:06:12.784001] (0x00000002) [info] The state of Process deployment_manager_dds with PID=-1isSTOPPED
+[20:06:12.784001] (0x00000002) [trace] Is Heirarchy Standby [true] Essential Processes Running [trueAll Non Essential Processes Shutdown [true] Transition State requested [UNDEFINED]
+[20:06:12.784001] (0x00000002) [info] Writing Process Manager State to Parent STANDBY
+[20:06:27.744001] (0x00000007) [trace] Timeout occurred. Force stopping processes 
+[20:06:27.744001] (0x00000007) [info] The state of Process kpi_logger with PID=-1isSTOPPED
+[20:06:27.744001] (0x00000007) [info] The state of Process storz_controller with PID=-1isSTOPPED
+[20:06:27.744001] (0x00000007) [info] The state of Process orti_safety_local with PID=-1isSTOPPED
+[20:06:27.744001] (0x00000007) [info] The state of Process certificate_manager_dds with PID=-1isSTOPPED
+[20:06:27.744001] (0x00000007) [info] The state of Process deployment_manager_dds with PID=-1isSTOPPED
+[20:08:56.284001] (0x0000000f) [info] Queuing event for the state machine [ProcessManagerStateTransitionCommandEvent]
+[20:08:56.284001] (0x00000002) [trace] Is Heirarchy Standby [true] Essential Processes Running [trueAll Non Essential Processes Shutdown [true] Transition State requested [OPERABLE]
+[20:08:56.284001] (0x00000002) [info] Initialized State Entry
+[20:08:56.284001] (0x00000002) [info] Operable State Entry
+[20:08:56.284001] (0x00000002) [info] Process manager state changed to OPERABLE
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ErrorCount
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ACA1ErrorCount
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ACA2ErrorCount
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ACA3ErrorCount
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ACA4ErrorCount
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ErrorCountRequest
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ACA1ErrorCountRequest
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ACA2ErrorCountRequest
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ACA3ErrorCountRequest
+[20:08:56.286001] (0x00000002) [info] Registering DDS Type: ACA4ErrorCountRequest
+[20:08:56.286001] (0x00000002) [info] Lookup participant for 26 returned NULL 
+[20:08:56.286001] (0x00000002) [info] Making DomainParticipant: ErrorParticipantLibrary::ErrorNonRealtimeParticipant
+[20:08:56.330001] (0x00000002) [info] Making BlockingReader: ErrorCountRequestReader
+[20:08:56.330001] (0x00000002) [info] Making DdsDataReader: ErrorCountRequestReader
+[20:08:56.331001] (0x00000002) [info] Making Writer: ErrorCountWriter
+[20:08:56.331001] (0x00000002) [info] Making DdsDataWriter: ErrorCountWriter
+[20:08:56.333001] (0x00000002) [debug] UDP Transmitter: created (host safety-nrt:2616)
+[20:08:56.334001] (0x00000002) [debug] UDP Receiver: created (host orti-nrt:2216)
+[20:08:56.335001] (0x00000002) [info] Parsing certificate json: /einstein/application/resource/certificates.json
+[20:08:56.335001] (0x00000002) [info] Parsing /einstein/application/resource/storz_ca.pem
+[20:08:56.336001] (0x00000002) [info] Parsing /einstein/application/resource/storz_intermediate.pem
+[20:08:56.336001] (0x00000002) [info] Parsing /einstein/application/resource/storz_intermediate_2.pem
+[20:08:56.337001] (0x00000002) [info] Parsing /einstein/config/certificates/storz.pem
+[20:08:56.346001] (0x00000005) [info] Signal  18 Generated by process 2113545
+[20:08:56.347001] (0x00000002) [info] Signature verified succesfully for F3:21:7D:B6:9D:E6:B6:E3:80:F9:E1:5C:CC:E2:00:E5:FE:71:F5:A6
+[20:08:56.347001] (0x00000002) [info] Validity period verified succesfully for F3:21:7D:B6:9D:E6:B6:E3:80:F9:E1:5C:CC:E2:00:E5:FE:71:F5:A6
+[20:08:56.348001] (0x00000002) [info] Signature verified succesfully for 20:E8:B0:42:C2:6A:D3:FA:5E:2C:B9:8C:02:A4:2C:85:C7:A1:F1:F2
+[20:08:56.348001] (0x00000002) [info] Validity period verified succesfully for 20:E8:B0:42:C2:6A:D3:FA:5E:2C:B9:8C:02:A4:2C:85:C7:A1:F1:F2
+[20:08:56.348001] (0x00000002) [info] Signature verified succesfully for 0B:E4:F4:68:DF:B4:EC:D2:67:86:88:5F:3B:1A:91:20:5F:98:61:1D
+[20:08:56.348001] (0x00000002) [info] Validity period verified succesfully for 0B:E4:F4:68:DF:B4:EC:D2:67:86:88:5F:3B:1A:91:20:5F:98:61:1D
+[20:08:56.349001] (0x00000002) [info] Signature verified succesfully for AD:11:67:B0:8F:2E:81:87:06:15:A5:2B:3A:71:06:61:8C:DC:CB:68
+[20:08:56.349001] (0x00000002) [info] Validity period verified succesfully for AD:11:67:B0:8F:2E:81:87:06:15:A5:2B:3A:71:06:61:8C:DC:CB:68
+[20:08:56.435001] (0x00000002) [info] Service is shutting down ...
+[20:08:56.435001] (0x00000002) [info] Service is destroyed
+[20:08:56.435001] (0x00000002) [info] Service is shutting down ...
+[20:08:56.435001] (0x00000002) [info] Service is destroyed
+[20:08:56.442001] (0x00000002) [info] Generating peripherals config for ORTI
+[20:08:56.442001] (0x00000002) [info] Generating config checksum of sw-nrt
+[20:08:56.445001] (0x00000002) [info] Connected to host: sw-nrt
+[20:08:56.445001] (0x00000002) [info] Setting Telnet timeout to 10 s
+[20:08:56.445001] (0x00000002) [info] Performing telnet login
+[20:08:56.921001] (0x00000002) [info] Entering privileged exec
+[20:08:57.141001] (0x00000012) [info] Starting TFTP server..
+[20:08:58.142001] (0x00000002) [info] Trying to resolve hostname sw-nrt, try 1
+[20:08:58.556001] (0x00000012) [info] Write request received on server request port, starting thread to handle request
+[20:08:58.565001] (0x00000017) [info] Transfer complete!
+[20:08:58.657001] (0x00000012) [info] Found stopped session, popping..
+[20:08:59.366001] (0x00000002) [info] Stopping TFTP server..
+[20:08:59.465001] (0x00000012) [info] Stopping all threads..
+[20:08:59.465001] (0x00000012) [info] Popping all threads..
+[20:08:59.465001] (0x00000002) [info] Generating config checksum of sw-rt
+[20:08:59.468001] (0x00000002) [info] Connected to host: sw-rt
+[20:08:59.468001] (0x00000002) [info] Setting Telnet timeout to 10 s
+[20:08:59.468001] (0x00000002) [info] Performing telnet login
+[20:08:59.951001] (0x00000002) [info] Entering privileged exec
+[20:09:00.175001] (0x00000012) [info] Starting TFTP server..
+[20:09:01.176001] (0x00000002) [info] Trying to resolve hostname sw-rt, try 1
+[20:09:01.589001] (0x00000012) [info] Write request received on server request port, starting thread to handle request
+[20:09:01.589001] (0x00000017) [warning] File already exists. It will be overwritten
+[20:09:01.592001] (0x00000017) [info] Transfer complete!
+[20:09:01.690001] (0x00000012) [info] Found stopped session, popping..
+[20:09:02.412001] (0x00000002) [info] Stopping TFTP server..
+[20:09:02.498001] (0x00000012) [info] Stopping all threads..
+[20:09:02.498001] (0x00000012) [info] Popping all threads..
+[20:09:02.498001] (0x00000002) [info] Generating config checksum of ups-tower
+[20:09:02.499001] (0x00000002) [info] Connected to host: ups-tower
+[20:09:02.500001] (0x00000002) [info] Setting SSH timeout to 10 sec
+[20:09:02.896001] (0x00000002) [info] Created ssh session
+[20:09:03.219001] (0x00000002) [info] Authenticated ssh session
+[20:09:04.080001] (0x00000002) [info] Opened remote shell
+[20:09:04.786001] (0x00000002) [info] RAS-7108 try to retrieve audible_alarm
+[20:09:05.644001] (0x00000002) [info] RAS-7108 audible_alarm retrieved succesfully!
+[20:09:05.644001] (0x00000002) [info] RAS-7108 try to retrieve auto_battery_test_period
+[20:09:06.314001] (0x00000002) [info] RAS-7108 auto_battery_test_period retrieved succesfully!
+[20:09:06.314001] (0x00000002) [info] RAS-7108 try to retrieve auto_restart_on_shutdown
+[20:09:07.040001] (0x00000002) [info] RAS-7108 auto_restart_on_shutdown retrieved succesfully!
+[20:09:07.040001] (0x00000002) [info] RAS-7108 try to retrieve auto_shed
+[20:09:07.660001] (0x00000002) [info] RAS-7108 auto_shed retrieved succesfully!
+[20:09:07.661001] (0x00000002) [info] RAS-7108 try to retrieve battery_age_threshold
+[20:09:08.452001] (0x00000002) [info] RAS-7108 battery_age_threshold retrieved succesfully!
+[20:09:08.452001] (0x00000002) [info] RAS-7108 try to retrieve bypass_high_limit
+[20:09:09.099001] (0x00000002) [info] RAS-7108 bypass_high_limit retrieved succesfully!
+[20:09:09.099001] (0x00000002) [info] RAS-7108 try to retrieve bypass_low_limit
+[20:09:09.772001] (0x00000002) [info] RAS-7108 bypass_low_limit retrieved succesfully!
+[20:09:09.772001] (0x00000002) [info] RAS-7108 try to retrieve cold_start
+[20:09:10.455001] (0x00000002) [info] RAS-7108 cold_start retrieved succesfully!
+[20:09:10.455001] (0x00000002) [info] RAS-7108 try to retrieve db9_in_3_9_action
+[20:09:11.078001] (0x00000002) [info] RAS-7108 db9_in_3_9_action retrieved succesfully!
+[20:09:11.078001] (0x00000002) [info] RAS-7108 try to retrieve db9_out_1_5_trigger
+[20:09:11.865001] (0x00000002) [info] RAS-7108 db9_out_1_5_trigger retrieved succesfully!
+[20:09:11.865001] (0x00000002) [info] RAS-7108 try to retrieve db9_out_8_5_trigger
+[20:09:12.598001] (0x00000002) [info] RAS-7108 db9_out_8_5_trigger retrieved succesfully!
+[20:09:12.598001] (0x00000002) [info] RAS-7108 try to retrieve display_language
+[20:09:13.298001] (0x00000002) [info] RAS-7108 display_language retrieved succesfully!
+[20:09:13.298001] (0x00000002) [info] RAS-7108 try to retrieve energy_saving
+[20:09:13.968001] (0x00000002) [info] RAS-7108 energy_saving retrieved succesfully!
+[20:09:13.968001] (0x00000002) [info] RAS-7108 try to retrieve fault_action
+[20:09:14.631001] (0x00000002) [info] RAS-7108 fault_action retrieved succesfully!
+[20:09:14.631001] (0x00000002) [info] RAS-7108 try to retrieve high_transfer_voltage
+[20:09:15.205001] (0x00000002) [info] RAS-7108 high_transfer_voltage retrieved succesfully!
+[20:09:15.205001] (0x00000002) [info] RAS-7108 try to retrieve load_level_threshold
+[20:09:15.928001] (0x00000002) [info] RAS-7108 load_level_threshold retrieved succesfully!
+[20:09:15.928001] (0x00000002) [info] RAS-7108 try to retrieve low_bat_warning_threshold
+[20:09:16.658001] (0x00000002) [info] RAS-7108 low_bat_warning_threshold retrieved succesfully!
+[20:09:16.658001] (0x00000002) [info] RAS-7108 try to retrieve low_transfer_voltage
+[20:09:17.350001] (0x00000002) [info] RAS-7108 low_transfer_voltage retrieved succesfully!
+[20:09:17.350001] (0x00000002) [info] RAS-7108 try to retrieve min_battery_restart
+[20:09:18.022001] (0x00000002) [info] RAS-7108 min_battery_restart retrieved succesfully!
+[20:09:18.022001] (0x00000002) [info] RAS-7108 try to retrieve nominal_output_voltage
+[20:09:18.708001] (0x00000002) [info] RAS-7108 nominal_output_voltage retrieved succesfully!
+[20:09:18.708001] (0x00000002) [info] RAS-7108 try to retrieve off_mode
+[20:09:19.377001] (0x00000002) [info] RAS-7108 off_mode retrieved succesfully!
+[20:09:19.377001] (0x00000002) [info] RAS-7108 try to retrieve on_battery_timed_shutdown_secs
+[20:09:19.961001] (0x00000002) [info] RAS-7108 on_battery_timed_shutdown_secs retrieved succesfully!
+[20:09:19.961001] (0x00000002) [info] RAS-7108 try to retrieve on_battery_timed_shutdown_status
+[20:09:20.641001] (0x00000002) [info] RAS-7108 on_battery_timed_shutdown_status retrieved succesfully!
+[20:09:20.641001] (0x00000002) [info] RAS-7108 try to retrieve overload_threshold
+[20:09:21.321001] (0x00000002) [info] RAS-7108 overload_threshold retrieved succesfully!
+[20:09:21.321001] (0x00000002) [info] RAS-7108 try to retrieve power_on_delay_secs
+[20:09:21.977001] (0x00000002) [info] RAS-7108 power_on_delay_secs retrieved succesfully!
+[20:09:21.977001] (0x00000002) [info] RAS-7108 try to retrieve power_strategy
+[20:09:22.663001] (0x00000002) [info] RAS-7108 power_strategy retrieved succesfully!
+[20:09:22.663001] (0x00000002) [info] RAS-7108 try to retrieve shutdown_completion_behavior
+[20:09:23.412001] (0x00000002) [info] RAS-7108 shutdown_completion_behavior retrieved succesfully!
+[20:09:23.451001] (0x00000002) [info] Generating config checksum of ups-tpsc
+[20:09:23.452001] (0x00000002) [info] Connected to host: ups-tpsc
+[20:09:23.453001] (0x00000002) [info] Setting SSH timeout to 10 sec
+[20:09:23.813001] (0x00000002) [info] Created ssh session
+[20:09:24.141001] (0x00000002) [info] Authenticated ssh session
+[20:09:25.013001] (0x00000002) [info] Opened remote shell
+[20:09:25.579001] (0x00000002) [info] RAS-7108 try to retrieve audible_alarm
+[20:09:26.610001] (0x00000002) [info] RAS-7108 audible_alarm retrieved succesfully!
+[20:09:26.610001] (0x00000002) [info] RAS-7108 try to retrieve auto_battery_test_period
+[20:09:27.281001] (0x00000002) [info] RAS-7108 auto_battery_test_period retrieved succesfully!
+[20:09:27.281001] (0x00000002) [info] RAS-7108 try to retrieve auto_restart_on_shutdown
+[20:09:28.058001] (0x00000002) [info] RAS-7108 auto_restart_on_shutdown retrieved succesfully!
+[20:09:28.058001] (0x00000002) [info] RAS-7108 try to retrieve auto_shed
+[20:09:28.768001] (0x00000002) [info] RAS-7108 auto_shed retrieved succesfully!
+[20:09:28.768001] (0x00000002) [info] RAS-7108 try to retrieve battery_age_threshold
+[20:09:29.345001] (0x00000002) [info] RAS-7108 battery_age_threshold retrieved succesfully!
+[20:09:29.345001] (0x00000002) [info] RAS-7108 try to retrieve bypass_high_limit
+[20:09:30.040001] (0x00000002) [info] RAS-7108 bypass_high_limit retrieved succesfully!
+[20:09:30.040001] (0x00000002) [info] RAS-7108 try to retrieve bypass_low_limit
+[20:09:30.662001] (0x00000002) [info] RAS-7108 bypass_low_limit retrieved succesfully!
+[20:09:30.662001] (0x00000002) [info] RAS-7108 try to retrieve cold_start
+[20:09:31.328001] (0x00000002) [info] RAS-7108 cold_start retrieved succesfully!
+[20:09:31.328001] (0x00000002) [info] RAS-7108 try to retrieve db9_in_3_9_action
+[20:09:32.010001] (0x00000002) [info] RAS-7108 db9_in_3_9_action retrieved succesfully!
+[20:09:32.011001] (0x00000002) [info] RAS-7108 try to retrieve db9_out_1_5_trigger
+[20:09:32.700001] (0x00000002) [info] RAS-7108 db9_out_1_5_trigger retrieved succesfully!
+[20:09:32.700001] (0x00000002) [info] RAS-7108 try to retrieve db9_out_8_5_trigger
+[20:09:33.340001] (0x00000002) [info] RAS-7108 db9_out_8_5_trigger retrieved succesfully!
+[20:09:33.340001] (0x00000002) [info] RAS-7108 try to retrieve display_language
+[20:09:34.023001] (0x00000002) [info] RAS-7108 display_language retrieved succesfully!
+[20:09:34.023001] (0x00000002) [info] RAS-7108 try to retrieve energy_saving
+[20:09:34.672001] (0x00000002) [info] RAS-7108 energy_saving retrieved succesfully!
+[20:09:34.672001] (0x00000002) [info] RAS-7108 try to retrieve fault_action
+[20:09:35.308001] (0x00000002) [info] RAS-7108 fault_action retrieved succesfully!
+[20:09:35.308001] (0x00000002) [info] RAS-7108 try to retrieve high_transfer_voltage
+[20:09:35.953001] (0x00000002) [info] RAS-7108 high_transfer_voltage retrieved succesfully!
+[20:09:35.953001] (0x00000002) [info] RAS-7108 try to retrieve load_level_threshold
+[20:09:36.647001] (0x00000002) [info] RAS-7108 load_level_threshold retrieved succesfully!
+[20:09:36.647001] (0x00000002) [info] RAS-7108 try to retrieve low_bat_warning_threshold
+[20:09:37.375001] (0x00000002) [info] RAS-7108 low_bat_warning_threshold retrieved succesfully!
+[20:09:37.375001] (0x00000002) [info] RAS-7108 try to retrieve low_transfer_voltage
+[20:09:38.105001] (0x00000002) [info] RAS-7108 low_transfer_voltage retrieved succesfully!
+[20:09:38.105001] (0x00000002) [info] RAS-7108 try to retrieve min_battery_restart
+[20:09:38.725001] (0x00000002) [info] RAS-7108 min_battery_restart retrieved succesfully!
+[20:09:38.726001] (0x00000002) [info] RAS-7108 try to retrieve nominal_output_voltage
+[20:09:39.384001] (0x00000002) [info] RAS-7108 nominal_output_voltage retrieved succesfully!
+[20:09:39.384001] (0x00000002) [info] RAS-7108 try to retrieve off_mode
+[20:09:40.088001] (0x00000002) [info] RAS-7108 off_mode retrieved succesfully!
+[20:09:40.088001] (0x00000002) [info] RAS-7108 try to retrieve on_battery_timed_shutdown_secs
+[20:09:40.710001] (0x00000002) [info] RAS-7108 on_battery_timed_shutdown_secs retrieved succesfully!
+[20:09:40.710001] (0x00000002) [info] RAS-7108 try to retrieve on_battery_timed_shutdown_status
+[20:09:42.494001] (0x00000002) [info] RAS-7108 on_battery_timed_shutdown_status retrieved succesfully!
+[20:09:42.494001] (0x00000002) [info] RAS-7108 try to retrieve overload_threshold
+[20:09:43.111001] (0x00000002) [info] RAS-7108 overload_threshold retrieved succesfully!
+[20:09:43.111001] (0x00000002) [info] RAS-7108 try to retrieve power_on_delay_secs
+[20:09:43.772001] (0x00000002) [info] RAS-7108 power_on_delay_secs retrieved succesfully!
+[20:09:43.772001] (0x00000002) [info] RAS-7108 try to retrieve power_strategy
+[20:09:44.436001] (0x00000002) [info] RAS-7108 power_strategy retrieved succesfully!
+[20:09:44.436001] (0x00000002) [info] RAS-7108 try to retrieve shutdown_completion_behavior
+[20:09:45.098001] (0x00000002) [info] RAS-7108 shutdown_completion_behavior retrieved succesfully!
+[20:09:45.099001] (0x00000002) [info] Generating config checksum of inogeni-endo
+[20:09:47.108001] (0x00000005) [info] Signal  18 Generated by process 2125833
+[20:09:47.108001] (0x00000002) [info] InogeniHID: 3021-INOGENI; Identifier: Endoscope; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:47.108001] (0x00000002) [info] InogeniHID: 321A-INOGENI; Identifier: AuxFEED1; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:47.108001] (0x00000002) [info] InogeniHID: 0F27-INOGENI; Identifier: AuxFEED2; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:47.108001] (0x00000002) [info] InogeniHID: 1230-INOGENI; Identifier: None; Model: SDI2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:47.109001] (0x00000002) [info] Generating config checksum of inogeni-aux1
+[20:09:49.117001] (0x00000005) [info] Signal  18 Generated by process 2138121
+[20:09:49.117001] (0x00000002) [info] InogeniHID: 3021-INOGENI; Identifier: Endoscope; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:49.117001] (0x00000002) [info] InogeniHID: 321A-INOGENI; Identifier: AuxFEED1; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:49.117001] (0x00000002) [info] InogeniHID: 0F27-INOGENI; Identifier: AuxFEED2; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:49.117001] (0x00000002) [info] InogeniHID: 1230-INOGENI; Identifier: None; Model: SDI2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:49.118001] (0x00000002) [info] Generating config checksum of inogeni-aux2
+[20:09:51.126001] (0x00000005) [info] Signal  18 Generated by process 2150409
+[20:09:51.126001] (0x00000002) [info] InogeniHID: 3021-INOGENI; Identifier: Endoscope; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:51.126001] (0x00000002) [info] InogeniHID: 321A-INOGENI; Identifier: AuxFEED1; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:51.126001] (0x00000002) [info] InogeniHID: 0F27-INOGENI; Identifier: AuxFEED2; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:51.126001] (0x00000002) [info] InogeniHID: 1230-INOGENI; Identifier: None; Model: SDI2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:51.127001] (0x00000002) [info] Generating config checksum of inogeni-sdi
+[20:09:53.135001] (0x00000005) [info] Signal  18 Generated by process 2174985
+[20:09:53.135001] (0x00000002) [info] InogeniHID: 3021-INOGENI; Identifier: Endoscope; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:53.135001] (0x00000002) [info] InogeniHID: 321A-INOGENI; Identifier: AuxFEED1; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:53.135001] (0x00000002) [info] InogeniHID: 0F27-INOGENI; Identifier: AuxFEED2; Model: 4K2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:53.136001] (0x00000002) [info] InogeniHID: 1230-INOGENI; Identifier: None; Model: SDI2USB3; FPGA: Spartan6; Boot Delay: 22
+[20:09:53.137001] (0x00000002) [error] Peripheral compatibility failure. The peripheral version '3fd7424588056bdd61a01502172dece040d7195adfc5eadb072155034fe6c9c46b68915021bc9aaee50aa4c81aea150e7b74014f646f547abf7c7e0343f5cd3a' for ups-tpsc not found in the pheripherals compatibility matrix.
+[20:09:53.146001] (0x00000002) [info] Initialized State Exit
+[20:09:53.341001] (0x00000002) [info] Operational State Exit
+[20:09:53.341001] (0x00000002) [info] Malfunction Irrecoverable State Entry
+[20:09:53.341001] (0x00000002) [info] Process manager state changed to MALFUNCTION_IRRECOVERABLE
+[20:09:53.341001] (0x00000002) [info] Writing Process Manager State to Parent MALFUNCTION_IRRECOVERABLE
+[20:09:53.341001] (0x00000002) [error] Compatibility Check failed EinsteinException:RunTimeError:SoftwareCompatibilityException: Peripherals compatibility check failed
